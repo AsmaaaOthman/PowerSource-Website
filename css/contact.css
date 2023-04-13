@@ -1,0 +1,18 @@
+/*
+======================= Start Contact Us Section =====================
+*/ 
+.contact{
+    padding:8rem 0 4rem 0;
+    background-color:var(--black);
+}
+.contact .contact-map{
+    margin-top:6rem;
+}
+.contact iframe{
+    width:100%
+}
+
+
+/*
+======================= End Contact Us Section =====================
+*/
