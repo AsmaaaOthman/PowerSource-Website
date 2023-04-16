@@ -66,9 +66,9 @@ a{
 a:hover{
     color:var(--green) !important;
 }
-.container.cont{
+.container-fluid.cont{
     border-radius:0 0 .5rem .5rem;
-    padding:.5rem 1rem;
+    padding:.5rem 2rem;
     margin-top:-1rem;
     background-color:var(--gray-dark)
 
@@ -95,17 +95,20 @@ a:hover{
 
 .navbar{
     /*background-color:var(--gray-dark);*/
-    padding:0.5rem 0
+    padding:-0.5rem 0
 }
 .navScroll{
     padding:0;
     box-shadow:10px 150x rgb(22, 22, 21);
 }
+.navbar .navbar-brand{
+    margin-right:5rem
+}
 .navbar .navbar-brand img{
     width:35%;
 }
 .navbar .navbar-nav{
-    margin-left:0;
+    margin-left:12rem;
 }
 .navbar .navbar-nav .nav-item{
     margin-right: 2.5rem;
@@ -198,8 +201,8 @@ a:hover{
 
 }
 .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus{
-    width:72%;
-    left:14%;
+    width:75%;
+    left:12.5%;
     top:92%;
     border-radius:0 0 .5rem .5rem
 }
@@ -217,7 +220,7 @@ a:hover{
     background-color:var(--green)
 }
 .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop{
-    width:230px;
+    width:250px;
     height:150px;
     cursor:pointer
 }
@@ -280,7 +283,7 @@ a:hover{
         left:5%;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop {
-        width:200px;
+        width:195px;
     }
     .dropdown-list.drop-plus .nav-title{
         font-size:1.5rem
@@ -403,7 +406,7 @@ a:hover{
         background-color:var(--gray-dark);
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop{
-        width:170px
+        width:160px
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .line-vertical::before{
         background-color:transparent;
@@ -460,16 +463,17 @@ a:hover{
         width:38%;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop {
-        width: 155px
+        width:150px;
+        height:130px
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .list-item .list-link {
-        font-size: 1.2rem
+        font-size:1.2rem
     }
 }
 @media screen and (max-width:767px){
     .navbar .navbar-brand img {
         width: 50%;
-        margin-left: 4rem
+        margin-left:4rem
     }
     .navbar .navbar-collapse{
         top:40px
@@ -494,7 +498,8 @@ a:hover{
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
     width: 30px;
-    height: 30px
+    height: 30px;
+    background-image:none;
 }
 .carousel-control-next, .carousel-control-prev, .carousel-control-next:hover, .carousel-control-prev:hover{
     border:none;
@@ -821,6 +826,10 @@ a:hover{
 }
 .footer .footer-icon .bx{
     font-size:2.5rem;
+}
+.footer input{
+    outline:0;
+    cursor:pointer
 }
 /*
 ======================= End Footer Section =====================
