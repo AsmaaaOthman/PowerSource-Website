@@ -769,6 +769,46 @@ a:hover{
     font-weight:600
 
 }
+@media screen and (max-width:1024px) {
+    .area .area-content .area-img{
+        width:210px
+    }
+    .area .area-content{
+        width:210px
+
+    }
+    .area .area-content .area-details{
+        width:210px
+
+    }
+}
+@media screen and (max-width:991px) {
+    .area .area-content .area-img{
+        width:295px
+    }
+    .area .area-content{
+        width:295px
+
+    }
+    .area .area-content .area-details{
+        width:295px;
+
+
+    }
+}
+@media screen and (max-width:767px) {
+    .area .area-content .area-img{
+        width:260px
+    }
+    .area .area-content{
+        width:260px
+
+    }
+    .area .area-content .area-details{
+        width:260px
+
+    }
+}
 
 /*
 ======================= End Area Section =====================
