@@ -1,9 +1,13 @@
 /*
 ======================= Start Contact Us Section =====================
 */ 
+.container-fluid.cont{
+    padding:1rem 2rem;
+    border:1px solid var(--gray)
+}
 .contact{
-    padding:8rem 0 4rem 0;
-    background-color:var(--black);
+    padding:10rem 0 4rem 0;
+    background-color:var(--black)
 }
 .contact .contact-map{
     margin-top:6rem;
@@ -11,7 +15,7 @@
 }
 .contact iframe{
     width:100%;
-    border-radius:.5rem;
+    border-radius:.5rem
 }
 
 
