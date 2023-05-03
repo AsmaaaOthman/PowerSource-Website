@@ -226,7 +226,7 @@ a:hover{
 .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus{
     width:95%;
     left:3%;
-    top:98%;
+    top:94%;
     border-radius:0 0 .5rem .5rem
 }
 .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .line-vertical{
@@ -429,19 +429,23 @@ a:hover{
         display:block;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus{
-        background-color:var(--gray-dark);
+        /*background-color:var(--gray-dark);*/
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop{
-        width:160px
+        width:170px;
+        height:130px;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .line-vertical::before{
         background-color:transparent;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .title{
+        font-size:1.2rem;
         margin-top:0;
+        margin-bottom:0.5rem;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .list-item .list-link{
-        color:var(--white)
+        font-size:1rem;
+        /*  color:var(--white)*/
     }
     .navbar .navbar-toggler{
         order:0
@@ -489,11 +493,7 @@ a:hover{
         width:38%;
     }
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop {
-        width:150px;
-        height:130px
-    }
-    .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .list-item .list-link {
-        font-size:1.2rem
+        width:160px
     }
 }
 @media screen and (max-width:767px){
@@ -584,7 +584,7 @@ a:hover{
 }
 @media screen and (max-width:767px) {
     .header-home .carousel-item img{
-        height:30vh;
+        height:40vh
     } 
     .header-home .carousel-item .carousel-caption {
         top: 80%;
@@ -729,7 +729,7 @@ a:hover{
 ======================= Start News Section =====================
 */
 .news{
-    padding:8rem 4rem;
+    padding:10rem 4rem;
     background-color:var(--black)
 }
 .news .img-top{
