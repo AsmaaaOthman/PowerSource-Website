@@ -8,13 +8,6 @@
     text-decoration:none;
     font-family:'Poppins', sans-serif !important
 }
-html{
-    font-size:60.5%;
-}
-body{
-    background-color:var(--gray-dark);
-    overflow-x:hidden
-}
 :root{
     --black:#151515;
     --black-lite:rgba(0, 0, 0, 0.61);
@@ -38,13 +31,20 @@ body{
 ::-webkit-scrollbar-thumb{
     background-color:var(--gray-dark)
 }
+html{
+    font-size:60.5%;
+}
+body{
+    background-color:var(--black);
+    overflow-x:hidden
+}
 .container{
     height:100vh;
     width:100%;
     display:flex;
     align-items:center;
     justify-content:center;
-    background-color:var(--gray-dark);
+    background-color:var(--black);
     column-gap:2rem;
 }
 header{
@@ -52,6 +52,9 @@ header{
     font-size:2rem;
     font-weight: 600;
     color:var(--gray)
+}
+header span{
+    color:var(--green)
 }
 .form{
     position:absolute;
@@ -104,11 +107,11 @@ header{
 }
 .form .field button{
     color:var(--white);
-    background-color:var(--gray-dark);
+    background-color:var(--black);
     transition:all .5s ease-in
 }
 .form .field button:hover{
-    background-color:#232836d4
+    background-color:#151515d7;
 }
 .form .field .eye-icon{
     position:absolute;
@@ -164,7 +167,7 @@ header{
     border-radius:.5rem
 }
 .form .media-options a.media{
-    background-color:var(--gray-dark);
+    background-color:var(--black);
     color:var(--white)
 
 }
@@ -172,7 +175,7 @@ header{
     margin-right:.5rem;
     height:28px;
     width:28px;
-    color:var(--gray-dark);
+    color:var(--black);
     font-size:2rem;
     border-radius:50%;
     display:flex;
