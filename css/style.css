@@ -288,7 +288,29 @@ a:hover{
     font-weight:500;
     color:var(--black)
 }
+.navbar .nav-icon{
+    font-size:2rem;
+}
+.navbar .nav-icon .nav-item{
+    margin-right:1.5rem;
+}
+.navbar .nav-icon .nav-item .icon-link{
+    color:var(--white)
+}
+.line-horizontal{
+    position:relative;
+}
+.line-horizontal::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-7px;
+    width:.5px;
+    height:100%;
+    background-color:var(--gray);
+}
 
+/*
 .navbar .nav-icon .nav-item .nav-link{
     font-size:1.5rem;
     text-transform:uppercase;
@@ -306,8 +328,7 @@ a:hover{
 .navbar .nav-icon .nav-item .nav-link span{
     margin-left:1rem;
 
-
-}
+}*/
 @media screen and (max-width:1280px) {
     .navbar .navbar-nav .nav-item.drop-item .dropdown-list.drop-plus .img-drop{
         width:270px;
@@ -505,6 +526,9 @@ a:hover{
     .navbar .navbar-nav .nav-item .nav-link::before{
         background-color:transparent;
     }
+    .navbar .nav-icon {
+        display:none; 
+    }
 
 }
 @media screen and (max-width:768px) {
@@ -636,9 +660,9 @@ a:hover{
 .area{
     padding:10rem 4rem;
     /*background-image: url(../image/abstract-blur-empty-green-gradient-studio-well-use-as-backgroundwebsite-templateframebusiness-report.jpg);
-    background-position:center;
-    background-size:cover;*/
-    background-color:var(--gray-lite);
+    background-position:cover;
+    background-size:center;*/
+    background-color:var(--gray-dark);
 
 }
 .area .area-content-top{
